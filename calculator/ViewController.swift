@@ -29,9 +29,6 @@ class ViewController: UIViewController {
         
         tipLabel.text = formatter.string(from: NSNumber(value: 0))
         totalLabel.text = formatter.string(from: NSNumber(value: 0))
-        
-        // self.view.backgroundColor = UIColor(red: 28/255, green: 28/255, blue: 28/255, alpha: 1.0)
-        // self.view.tintColor = UIColor(red: 34/255, green: 192/255, blue: 100/255, alpha: 1.0)
     }
     
     override func viewDidAppear(_ animated: Bool) {
